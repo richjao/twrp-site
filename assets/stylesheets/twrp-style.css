@@ -8,7 +8,8 @@ html {
 
 body{
   color: white;
-  background-color: black
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .tourdates{
@@ -16,5 +17,16 @@ body{
 }
 
 .bio-info{
+width: 600px;
+height: auto;
+}
 
+.wrapper{
+  width: 1200px;
+  height: auto;
+  float: left;
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
 }
