@@ -20,6 +20,10 @@ h3{
   font-family: 'Press Start 2P', sans-serif;
 }
 
+.nav-link{
+  display: inline;
+}
+
 .tourdates{
 display:grid;
 grid-template-columns: 1fr 2fr 1fr
