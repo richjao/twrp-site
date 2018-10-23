@@ -8,12 +8,17 @@ html {
 
 body{
   color: white;
-  background-color: black;
+  /* background-color: black; */
   font-family: 'Roboto', sans-serif;
 }
 
-.tourdates{
+h1{
+  font-family: 'Press Start 2P', cursive;
+}
 
+.tourdates{
+display:grid;
+grid-template-columns: 1fr 2fr 1fr
 }
 
 .bio-info{
@@ -27,6 +32,8 @@ height: auto;
   float: left;
 }
 
-h1{
-  font-family: 'Press Start 2P', cursive;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
