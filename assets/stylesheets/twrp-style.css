@@ -16,6 +16,10 @@ h1{
   font-family: 'Press Start 2P', cursive;
 }
 
+h3{
+  font-family: 'Press Start 2P', sans-serif;
+}
+
 .tourdates{
 display:grid;
 grid-template-columns: 1fr 2fr 1fr
