@@ -6,39 +6,67 @@ html {
   background-size: cover;
 }
 
-body{
+body {
   color: white;
   /* background-color: black; */
   font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
   font-family: 'Press Start 2P', cursive;
 }
 
-h3{
+h3 {
   font-family: 'Press Start 2P', sans-serif;
 }
 
-.nav-link{
-  display: inline;
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    clear: right;
+    clear: both;
+    display: block;
+    float: left;
+    background: gray;
+    background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%);
 }
 
-.tourdates{
-display:grid;
-grid-template-columns: 1fr 2fr 1fr
+header .logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-.bio-info{
-width: 600px;
-height: auto;
+nav ul {
+  background: transparent !important;
+  text-align: center;
+    width: 35%;
+    text-align: center;
 }
 
-.bio-li{
-
+nav ul.left {
+    float: left;
 }
 
-.wrapper{
+nav ul.right {
+  float: right;
+}
+
+.tourdates {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr
+}
+
+.bio-info {
+  width: 600px;
+  height: auto;
+}
+
+.bio-li {}
+
+.wrapper {
   width: 1200px;
   height: auto;
   float: left;
@@ -47,36 +75,43 @@ height: auto;
 .Absolute-Center {
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 nav li {
-    float: left;
+  float: left;
 }
 
 nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: #111;
+  background-color: #111;
 }
