@@ -70,6 +70,7 @@ nav ul.right {
   width: 1200px;
   height: auto;
   float: left;
+  padding: 100px;
 }
 
 .Absolute-Center {
@@ -114,4 +115,15 @@ nav li a {
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
   background-color: #111;
+}
+
+.tourdate{
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  color: pink;
+}
+
+.tourlocale{
+  text-align: center;
+
 }
