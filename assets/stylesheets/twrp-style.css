@@ -236,4 +236,15 @@ display: block;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top:100px;
+}
+
+.videofeed {
+  width: 100%;
+  heiht: auto;
+  display: flex;
+  align: center;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 20px;
 }
