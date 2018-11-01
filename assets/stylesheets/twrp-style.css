@@ -29,7 +29,7 @@ header {
     display: block;
     float: left;
     background: gray;
-    background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #eeeeee 1%,#c9b1af 25%,#cc5f5f 100%);
 }
 
 header .logo {
@@ -52,6 +52,10 @@ nav ul.left {
 
 nav ul.right {
   float: right;
+}
+
+table {
+  width: 50%;
 }
 
 .tourdates {
