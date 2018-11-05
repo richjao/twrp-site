@@ -129,6 +129,14 @@ nav li a:hover {
 /* Filter script here */
 .container {
     overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    align: center;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .filterDiv {
@@ -248,4 +256,13 @@ display: block;
   flex-direction:column;
   justify-content: space-between;
   padding: 20px;
+}
+
+.merch-shelf {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
