@@ -241,7 +241,8 @@ display: block;
 
 .videofeed {
   width: 100%;
-  heiht: auto;
+  height: auto;
+  margin:0 auto;
   display: flex;
   align: center;
   flex-direction:column;
