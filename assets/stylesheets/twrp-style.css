@@ -68,9 +68,9 @@ table {
 }
 
 .wrapper {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
-  float: left;
+  /* float: left; */
   padding: 100px;
 }
 
