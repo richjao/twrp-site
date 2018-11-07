@@ -59,8 +59,9 @@ table {
 }
 
 .bio-info {
-  width: 75%;
+  width: 90%;
   height: auto;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
