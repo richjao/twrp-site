@@ -68,11 +68,15 @@ table {
   flex-wrap: wrap;
 }
 
+.bioshelf{
+  padding: 50px;
+}
+
 .wrapper {
   /* width: 100%; */
   height: auto;
   /* float: left; */
-  padding: 150px;
+  padding: 150px 150px 0px 150px;
 }
 
 .Absolute-Center {
@@ -266,6 +270,10 @@ nav li a:hover {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+}
+
+.merchbuffer{
+  padding: 150px 0px 150px 0px;
 }
 
 .merch-shelf {
