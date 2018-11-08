@@ -21,14 +21,14 @@ h3 {
 }
 
 header {
-    position: relative;
-    width: 100%;
-    height: auto;
-    /* clear: right; */
-    /* clear: both;
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* clear: right; */
+  /* clear: both;
     display: block; */
-    /* float: left; */
-    /* background: gray;
+  /* float: left; */
+  /* background: gray;
     background: linear-gradient(to bottom, #eeeeee 1%,#c9b1af 25%,#cc5f5f 100%); */
 }
 
@@ -42,12 +42,12 @@ header .logo {
 nav ul {
   background: transparent !important;
   text-align: center;
-    width: 35%;
-    text-align: center;
+  width: 35%;
+  text-align: center;
 }
 
 nav ul.left {
-    float: left;
+  float: left;
 }
 
 nav ul.right {
@@ -55,7 +55,7 @@ nav ul.right {
 }
 
 table {
-  width: 50%;
+  width: 60%;
 }
 
 .bio-info {
@@ -72,7 +72,7 @@ table {
   /* width: 100%; */
   height: auto;
   /* float: left; */
-  padding: 100px;
+  padding: 150px;
 }
 
 .Absolute-Center {
@@ -119,46 +119,48 @@ nav li a:hover {
   background-color: #111;
 }
 
-.tourdate{
+.tourdate {
   text-align: center;
   font-family: 'Press Start 2P', sans-serif;
   color: pink;
   font-size: 36px;
+  padding: 20px;
 }
 
-.tourlocale{
+.tourlocale {
   text-align: center;
-
+  padding: 20px;
 }
 
 /* Filter script here */
 .container {
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    margin:0 auto;
-    display: flex;
-    align: center;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .filterDiv {
-    /* float: left; */
-    background-color: rgba(0,0,0,0.2);
-    color: #ffffff;
-    width: 400px;
-    /* line-height: 100px; */
-    text-align: center;
-    margin: 2px;
-    display: none; /* Hidden by default */
+  /* float: left; */
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  width: 400px;
+  /* line-height: 100px; */
+  text-align: center;
+  margin: 2px;
+  display: none;
+  /* Hidden by default */
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
-    display: block;
+  display: block;
 }
 
 /* Style the buttons */
@@ -168,6 +170,7 @@ nav li a:hover {
   padding: 12px 16px;
   background-color: #f1f1f1;
   cursor: pointer;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 /* Add a light grey background on mouse-over */
@@ -181,10 +184,10 @@ nav li a:hover {
   color: white;
 }
 
-.filterDiv img{
-width: 100%;
-height: auto;
-display: block;
+.filterDiv img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -193,7 +196,8 @@ display: block;
   width: 300px;
   height: 300px;
   /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -250,16 +254,16 @@ display: block;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 .videofeed {
   width: 100%;
   height: auto;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   align: center;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
   padding: 20px;
 }
@@ -267,6 +271,7 @@ display: block;
 .merch-shelf {
   width: 100%;
   height: auto;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
